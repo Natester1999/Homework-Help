@@ -1,0 +1,44 @@
+<html>
+<head>
+			<title> My Links2 page</title>
+<style>
+	body{background-color: black;}
+	div.first1 {color: red;}
+</style>
+<script>
+var randint = Math.floor(Math.random()*2);
+
+var input = window.prompt("Enter H for heads and T for tails.");
+
+if (input == "H" && randint == 0
+||input == "h" && randint == 0) {
+	document.write("Heads! You won!");
+} else if (input == "T" && randint == 1||input == "t" && randint == 1) {
+	document.write("Tails! You won!");
+} else if (input == "H" && randint == 1||input == "h" && randint == 1) {
+	document.write("Tails! You lose!");
+} else if (input == "T" && randint == 0||input == "t" && randint == 0) {
+	document.write("Heads! You lose!");
+} else {
+	document.write("Invalid input!");
+}
+</script>			
+
+</head>
+
+<body>
+<div class="first1"
+			<p> You were asked to choose H or T, The script is a simple number generator. If you Choose H and the computer chooses 0, you win! If you choose T and the computer chooses 1, you win. If you pick 1 with H you lose, and if you pick 0 with T you lose.
+			<p> To return to  Nathan's home page you can <a href = "nathan smith css.html"> click here</a></p>
+			<p> To return to  Nathan's link page you can <a href = "linkpage.html"> click here</a></p>
+			<p> To return to  Nathan's Table you can <a href = "html table.html"> click here</a></p>
+			
+			<p> A picture of me and my friends at my old highschool
+			<img src = "jpeg.jpg" alt="me luke zach"/>
+			
+</div>
+		
+			
+</body>
+
+</html>
